@@ -1,0 +1,7 @@
+torch
+torchvision
+pennylane
+qiskit
+jsonschema
+pytest
+jupyter

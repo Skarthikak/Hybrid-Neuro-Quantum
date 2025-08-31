@@ -1,0 +1,17 @@
+{
+  "training": {
+    "epochs": 5, 
+    "optimizer": "adam", 
+    "batch_size": 32
+  }, 
+  "quantum_layer": null, 
+  "classical_model": {
+    "layers": [
+      32, 
+      64, 
+      "flatten"
+    ], 
+    "type": "cnn"
+  }, 
+  "dataset": "MNIST"
+}
